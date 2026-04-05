@@ -1,0 +1,161 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #000000, #333333, #990000); /* black → grey → red */
+  margin: 0;
+  padding: 0;
+  color: #f0f0f0; 
+}
+
+header {
+  text-align: center;
+  background: #990000; 
+  color: white;
+  padding: 30px;
+}
+
+header img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid #f0f0f0;
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+  background: rgba(255, 255, 255, 0.05); /* semi-transparent card */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(255,255,255,0.2);
+}
+
+h2 {
+  color: #ff3333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background: rgba(0,0,0,0.6);
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  color: #f0f0f0;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.extra-links {
+  text-align: center;
+  margin: 20px;
+}
+
+.extra-links a {
+  color: #ff3333;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+  transition : all 0.3s ease;
+}
+
+.extra-links a:hover {
+  color: #ffffff;         
+  background: #990000;     
+  padding: 6px 12px;       
+  border-radius: 6px;      
+  text-decoration: underline;
+  transform: scale(1.1); 
+}
+
+footer {
+  background: #333333;
+  color: #f0f0f0;
+  text-align: center;
+  padding: 20px;
+}
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  color: #ff3333; 
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s;
+}
+
+.icon:hover {
+  transform: scale(1.2); 
+}
+/* Back to Home Button */
+.back-home {
+  position: absolute;   /* fixes it in the corner */
+  top: 15px;
+  left: 15px;
+  background: #1a1a1a;
+  color: #00aaff;       /* bright blue text */
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.back-home:hover {
+  background: #00aaff;  /* blue background on hover */
+  color: #fff;          /* white text */
+  transform: scale(1.1);
+  box-shadow: 0 0 8px #00aaff;
+}
+.avatar {
+  width: 120px;       /* fixed width */
+  height: 120px;      /* fixed height */
+  object-fit: cover;  /* crops nicely without stretching */
+  border-radius: 50%; /* makes it circular */
+  border: 3px solid #ff3333;
+  display: block;
+  margin: 0 auto 15px; /* centers inside the card */
+}
+.card {
+  background: #1a1a1a;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(255,0,0,0.4);
+}
+
+.card h2 {
+  color: #ff3333;
+  margin-bottom: 15px;
+}
+
+.card p, .card ul {
+  color: #f0f0f0;
+  line-height: 1.6;
+}
